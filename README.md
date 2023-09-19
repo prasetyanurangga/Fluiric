@@ -1,6 +1,6 @@
 # Fluiric
 
-Download Here [SpotifyLiyric](https://github.com/prasetyanurangga/spotify_liyric/releases/download/Release/Spotify.Liyric.app.zip)
+Download Here [Fluiric.app](https://github.com/prasetyanurangga/Fluiric/releases/download/Release/Fluiric.app.zip)
 
 ## Minimum Requirement 
 - Mac OS 13.0
