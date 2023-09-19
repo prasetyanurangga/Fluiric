@@ -2,6 +2,9 @@
 
 Download Here [SpotifyLiyric](https://github.com/prasetyanurangga/spotify_liyric/releases/download/Release/Spotify.Liyric.app.zip)
 
+## Overview 
+- Mac OS 13.0
+
 ![Preview](https://i.ibb.co/QrtVqfW/Frame-1.png)
 
 ## Overview 
