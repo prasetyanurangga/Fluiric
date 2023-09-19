@@ -11,11 +11,16 @@
 		BA32DE452AB9B82900C4F8AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE442AB9B82900C4F8AD /* ContentView.swift */; };
 		BA32DE472AB9B82A00C4F8AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA32DE462AB9B82A00C4F8AD /* Assets.xcassets */; };
 		BA32DE4A2AB9B82A00C4F8AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA32DE492AB9B82A00C4F8AD /* Preview Assets.xcassets */; };
-		BA32DE4C2AB9B82A00C4F8AD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE4B2AB9B82A00C4F8AD /* Persistence.swift */; };
-		BA32DE4F2AB9B82A00C4F8AD /* Fluiric.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE4D2AB9B82A00C4F8AD /* Fluiric.xcdatamodeld */; };
 		BA32DE5A2AB9B82B00C4F8AD /* FluiricTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE592AB9B82B00C4F8AD /* FluiricTests.swift */; };
 		BA32DE642AB9B82B00C4F8AD /* FluiricUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE632AB9B82B00C4F8AD /* FluiricUITests.swift */; };
 		BA32DE662AB9B82B00C4F8AD /* FluiricUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE652AB9B82B00C4F8AD /* FluiricUITestsLaunchTests.swift */; };
+		BA32DE772AB9B83C00C4F8AD /* SpotifyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE732AB9B83C00C4F8AD /* SpotifyManager.swift */; };
+		BA32DE782AB9B83C00C4F8AD /* FloatingWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE742AB9B83C00C4F8AD /* FloatingWindow.swift */; };
+		BA32DE792AB9B83C00C4F8AD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE762AB9B83C00C4F8AD /* Home.swift */; };
+		BA32DE7B2AB9B86200C4F8AD /* Fluiric-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA32DE7A2AB9B86200C4F8AD /* Fluiric-Info.plist */; };
+		BA32DE802AB9B88B00C4F8AD /* lyricJsonStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE7C2AB9B88B00C4F8AD /* lyricJsonStruct.swift */; };
+		BA32DE812AB9B88B00C4F8AD /* SpotifyScripting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE7D2AB9B88B00C4F8AD /* SpotifyScripting.swift */; };
+		BA32DE822AB9B88B00C4F8AD /* Lyrics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE7E2AB9B88B00C4F8AD /* Lyrics.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,14 +46,19 @@
 		BA32DE442AB9B82900C4F8AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA32DE462AB9B82A00C4F8AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA32DE492AB9B82A00C4F8AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BA32DE4B2AB9B82A00C4F8AD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		BA32DE4E2AB9B82A00C4F8AD /* Fluiric.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fluiric.xcdatamodel; sourceTree = "<group>"; };
 		BA32DE502AB9B82A00C4F8AD /* Fluiric.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fluiric.entitlements; sourceTree = "<group>"; };
 		BA32DE552AB9B82B00C4F8AD /* FluiricTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluiricTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA32DE592AB9B82B00C4F8AD /* FluiricTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluiricTests.swift; sourceTree = "<group>"; };
 		BA32DE5F2AB9B82B00C4F8AD /* FluiricUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluiricUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA32DE632AB9B82B00C4F8AD /* FluiricUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluiricUITests.swift; sourceTree = "<group>"; };
 		BA32DE652AB9B82B00C4F8AD /* FluiricUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluiricUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA32DE732AB9B83C00C4F8AD /* SpotifyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyManager.swift; sourceTree = "<group>"; };
+		BA32DE742AB9B83C00C4F8AD /* FloatingWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingWindow.swift; sourceTree = "<group>"; };
+		BA32DE762AB9B83C00C4F8AD /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BA32DE7A2AB9B86200C4F8AD /* Fluiric-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Fluiric-Info.plist"; sourceTree = "<group>"; };
+		BA32DE7C2AB9B88B00C4F8AD /* lyricJsonStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lyricJsonStruct.swift; sourceTree = "<group>"; };
+		BA32DE7D2AB9B88B00C4F8AD /* SpotifyScripting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotifyScripting.swift; sourceTree = "<group>"; };
+		BA32DE7F2AB9B88B00C4F8AD /* Lyrics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lyrics.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +109,16 @@
 		BA32DE412AB9B82900C4F8AD /* Fluiric */ = {
 			isa = PBXGroup;
 			children = (
+				BA32DE722AB9B83C00C4F8AD /* Helpers */,
+				BA32DE752AB9B83C00C4F8AD /* View */,
 				BA32DE422AB9B82900C4F8AD /* FluiricApp.swift */,
+				BA32DE7A2AB9B86200C4F8AD /* Fluiric-Info.plist */,
 				BA32DE442AB9B82900C4F8AD /* ContentView.swift */,
 				BA32DE462AB9B82A00C4F8AD /* Assets.xcassets */,
-				BA32DE4B2AB9B82A00C4F8AD /* Persistence.swift */,
 				BA32DE502AB9B82A00C4F8AD /* Fluiric.entitlements */,
-				BA32DE4D2AB9B82A00C4F8AD /* Fluiric.xcdatamodeld */,
+				BA32DE7C2AB9B88B00C4F8AD /* lyricJsonStruct.swift */,
+				BA32DE7E2AB9B88B00C4F8AD /* Lyrics.xcdatamodeld */,
+				BA32DE7D2AB9B88B00C4F8AD /* SpotifyScripting.swift */,
 				BA32DE482AB9B82A00C4F8AD /* Preview Content */,
 			);
 			path = Fluiric;
@@ -133,6 +147,23 @@
 				BA32DE652AB9B82B00C4F8AD /* FluiricUITestsLaunchTests.swift */,
 			);
 			path = FluiricUITests;
+			sourceTree = "<group>";
+		};
+		BA32DE722AB9B83C00C4F8AD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BA32DE732AB9B83C00C4F8AD /* SpotifyManager.swift */,
+				BA32DE742AB9B83C00C4F8AD /* FloatingWindow.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BA32DE752AB9B83C00C4F8AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA32DE762AB9B83C00C4F8AD /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA32DE4A2AB9B82A00C4F8AD /* Preview Assets.xcassets in Resources */,
+				BA32DE7B2AB9B86200C4F8AD /* Fluiric-Info.plist in Resources */,
 				BA32DE472AB9B82A00C4F8AD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,10 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA32DE4C2AB9B82A00C4F8AD /* Persistence.swift in Sources */,
+				BA32DE802AB9B88B00C4F8AD /* lyricJsonStruct.swift in Sources */,
+				BA32DE822AB9B88B00C4F8AD /* Lyrics.xcdatamodeld in Sources */,
 				BA32DE452AB9B82900C4F8AD /* ContentView.swift in Sources */,
-				BA32DE4F2AB9B82A00C4F8AD /* Fluiric.xcdatamodeld in Sources */,
+				BA32DE812AB9B88B00C4F8AD /* SpotifyScripting.swift in Sources */,
+				BA32DE772AB9B83C00C4F8AD /* SpotifyManager.swift in Sources */,
+				BA32DE782AB9B83C00C4F8AD /* FloatingWindow.swift in Sources */,
 				BA32DE432AB9B82900C4F8AD /* FluiricApp.swift in Sources */,
+				BA32DE792AB9B83C00C4F8AD /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -409,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -423,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Fluiric/Fluiric.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -435,6 +472,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = RedBallon.Fluiric;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Fluiric/Fluiric.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -460,6 +499,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = RedBallon.Fluiric;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -578,13 +618,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		BA32DE4D2AB9B82A00C4F8AD /* Fluiric.xcdatamodeld */ = {
+		BA32DE7E2AB9B88B00C4F8AD /* Lyrics.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				BA32DE4E2AB9B82A00C4F8AD /* Fluiric.xcdatamodel */,
+				BA32DE7F2AB9B88B00C4F8AD /* Lyrics.xcdatamodel */,
 			);
-			currentVersion = BA32DE4E2AB9B82A00C4F8AD /* Fluiric.xcdatamodel */;
-			path = Fluiric.xcdatamodeld;
+			currentVersion = BA32DE7F2AB9B88B00C4F8AD /* Lyrics.xcdatamodel */;
+			path = Lyrics.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

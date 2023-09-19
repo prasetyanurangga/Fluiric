@@ -1,20 +1,22 @@
 //
-//  FluiricApp.swift
-//  Fluiric
+//  Spotify_LiyricApp.swift
+//  Spotify Liyric
 //
-//  Created by Angga on 19/09/2023.
+//  Created by Angga on 16/09/2023.
 //
 
 import SwiftUI
 
 @main
-struct FluiricApp: App {
-    let persistenceController = PersistenceController.shared
-
+struct Spotify_LiyricApp: App {
+    
+    @StateObject var spotifyManager = SpotifyManager()
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environmentObject(spotifyManager)
         }
+        .windowResizability(.contentSize)
+        .windowStyle(.hiddenTitleBar)
     }
 }
