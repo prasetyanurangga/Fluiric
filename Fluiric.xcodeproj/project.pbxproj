@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA32DE432AB9B82900C4F8AD /* FluiricApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE422AB9B82900C4F8AD /* FluiricApp.swift */; };
+		BA32DE452AB9B82900C4F8AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE442AB9B82900C4F8AD /* ContentView.swift */; };
+		BA32DE472AB9B82A00C4F8AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA32DE462AB9B82A00C4F8AD /* Assets.xcassets */; };
+		BA32DE4A2AB9B82A00C4F8AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA32DE492AB9B82A00C4F8AD /* Preview Assets.xcassets */; };
+		BA32DE4C2AB9B82A00C4F8AD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE4B2AB9B82A00C4F8AD /* Persistence.swift */; };
+		BA32DE4F2AB9B82A00C4F8AD /* Fluiric.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE4D2AB9B82A00C4F8AD /* Fluiric.xcdatamodeld */; };
+		BA32DE5A2AB9B82B00C4F8AD /* FluiricTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE592AB9B82B00C4F8AD /* FluiricTests.swift */; };
+		BA32DE642AB9B82B00C4F8AD /* FluiricUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE632AB9B82B00C4F8AD /* FluiricUITests.swift */; };
+		BA32DE662AB9B82B00C4F8AD /* FluiricUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32DE652AB9B82B00C4F8AD /* FluiricUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA32DE562AB9B82B00C4F8AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA32DE372AB9B82900C4F8AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA32DE3E2AB9B82900C4F8AD;
+			remoteInfo = Fluiric;
+		};
+		BA32DE602AB9B82B00C4F8AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA32DE372AB9B82900C4F8AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA32DE3E2AB9B82900C4F8AD;
+			remoteInfo = Fluiric;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA32DE3F2AB9B82900C4F8AD /* Fluiric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fluiric.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA32DE422AB9B82900C4F8AD /* FluiricApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluiricApp.swift; sourceTree = "<group>"; };
+		BA32DE442AB9B82900C4F8AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA32DE462AB9B82A00C4F8AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA32DE492AB9B82A00C4F8AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA32DE4B2AB9B82A00C4F8AD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BA32DE4E2AB9B82A00C4F8AD /* Fluiric.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fluiric.xcdatamodel; sourceTree = "<group>"; };
+		BA32DE502AB9B82A00C4F8AD /* Fluiric.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fluiric.entitlements; sourceTree = "<group>"; };
+		BA32DE552AB9B82B00C4F8AD /* FluiricTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluiricTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA32DE592AB9B82B00C4F8AD /* FluiricTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluiricTests.swift; sourceTree = "<group>"; };
+		BA32DE5F2AB9B82B00C4F8AD /* FluiricUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluiricUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA32DE632AB9B82B00C4F8AD /* FluiricUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluiricUITests.swift; sourceTree = "<group>"; };
+		BA32DE652AB9B82B00C4F8AD /* FluiricUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluiricUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA32DE3C2AB9B82900C4F8AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA32DE522AB9B82B00C4F8AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA32DE5C2AB9B82B00C4F8AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA32DE362AB9B82900C4F8AD = {
+			isa = PBXGroup;
+			children = (
+				BA32DE412AB9B82900C4F8AD /* Fluiric */,
+				BA32DE582AB9B82B00C4F8AD /* FluiricTests */,
+				BA32DE622AB9B82B00C4F8AD /* FluiricUITests */,
+				BA32DE402AB9B82900C4F8AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA32DE402AB9B82900C4F8AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA32DE3F2AB9B82900C4F8AD /* Fluiric.app */,
+				BA32DE552AB9B82B00C4F8AD /* FluiricTests.xctest */,
+				BA32DE5F2AB9B82B00C4F8AD /* FluiricUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA32DE412AB9B82900C4F8AD /* Fluiric */ = {
+			isa = PBXGroup;
+			children = (
+				BA32DE422AB9B82900C4F8AD /* FluiricApp.swift */,
+				BA32DE442AB9B82900C4F8AD /* ContentView.swift */,
+				BA32DE462AB9B82A00C4F8AD /* Assets.xcassets */,
+				BA32DE4B2AB9B82A00C4F8AD /* Persistence.swift */,
+				BA32DE502AB9B82A00C4F8AD /* Fluiric.entitlements */,
+				BA32DE4D2AB9B82A00C4F8AD /* Fluiric.xcdatamodeld */,
+				BA32DE482AB9B82A00C4F8AD /* Preview Content */,
+			);
+			path = Fluiric;
+			sourceTree = "<group>";
+		};
+		BA32DE482AB9B82A00C4F8AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA32DE492AB9B82A00C4F8AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA32DE582AB9B82B00C4F8AD /* FluiricTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA32DE592AB9B82B00C4F8AD /* FluiricTests.swift */,
+			);
+			path = FluiricTests;
+			sourceTree = "<group>";
+		};
+		BA32DE622AB9B82B00C4F8AD /* FluiricUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA32DE632AB9B82B00C4F8AD /* FluiricUITests.swift */,
+				BA32DE652AB9B82B00C4F8AD /* FluiricUITestsLaunchTests.swift */,
+			);
+			path = FluiricUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA32DE3E2AB9B82900C4F8AD /* Fluiric */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA32DE692AB9B82B00C4F8AD /* Build configuration list for PBXNativeTarget "Fluiric" */;
+			buildPhases = (
+				BA32DE3B2AB9B82900C4F8AD /* Sources */,
+				BA32DE3C2AB9B82900C4F8AD /* Frameworks */,
+				BA32DE3D2AB9B82900C4F8AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fluiric;
+			productName = Fluiric;
+			productReference = BA32DE3F2AB9B82900C4F8AD /* Fluiric.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA32DE542AB9B82B00C4F8AD /* FluiricTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA32DE6C2AB9B82B00C4F8AD /* Build configuration list for PBXNativeTarget "FluiricTests" */;
+			buildPhases = (
+				BA32DE512AB9B82B00C4F8AD /* Sources */,
+				BA32DE522AB9B82B00C4F8AD /* Frameworks */,
+				BA32DE532AB9B82B00C4F8AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA32DE572AB9B82B00C4F8AD /* PBXTargetDependency */,
+			);
+			name = FluiricTests;
+			productName = FluiricTests;
+			productReference = BA32DE552AB9B82B00C4F8AD /* FluiricTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA32DE5E2AB9B82B00C4F8AD /* FluiricUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA32DE6F2AB9B82B00C4F8AD /* Build configuration list for PBXNativeTarget "FluiricUITests" */;
+			buildPhases = (
+				BA32DE5B2AB9B82B00C4F8AD /* Sources */,
+				BA32DE5C2AB9B82B00C4F8AD /* Frameworks */,
+				BA32DE5D2AB9B82B00C4F8AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA32DE612AB9B82B00C4F8AD /* PBXTargetDependency */,
+			);
+			name = FluiricUITests;
+			productName = FluiricUITests;
+			productReference = BA32DE5F2AB9B82B00C4F8AD /* FluiricUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA32DE372AB9B82900C4F8AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BA32DE3E2AB9B82900C4F8AD = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BA32DE542AB9B82B00C4F8AD = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA32DE3E2AB9B82900C4F8AD;
+					};
+					BA32DE5E2AB9B82B00C4F8AD = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BA32DE3E2AB9B82900C4F8AD;
+					};
+				};
+			};
+			buildConfigurationList = BA32DE3A2AB9B82900C4F8AD /* Build configuration list for PBXProject "Fluiric" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA32DE362AB9B82900C4F8AD;
+			productRefGroup = BA32DE402AB9B82900C4F8AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA32DE3E2AB9B82900C4F8AD /* Fluiric */,
+				BA32DE542AB9B82B00C4F8AD /* FluiricTests */,
+				BA32DE5E2AB9B82B00C4F8AD /* FluiricUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA32DE3D2AB9B82900C4F8AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA32DE4A2AB9B82A00C4F8AD /* Preview Assets.xcassets in Resources */,
+				BA32DE472AB9B82A00C4F8AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA32DE532AB9B82B00C4F8AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA32DE5D2AB9B82B00C4F8AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA32DE3B2AB9B82900C4F8AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA32DE4C2AB9B82A00C4F8AD /* Persistence.swift in Sources */,
+				BA32DE452AB9B82900C4F8AD /* ContentView.swift in Sources */,
+				BA32DE4F2AB9B82A00C4F8AD /* Fluiric.xcdatamodeld in Sources */,
+				BA32DE432AB9B82900C4F8AD /* FluiricApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA32DE512AB9B82B00C4F8AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA32DE5A2AB9B82B00C4F8AD /* FluiricTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA32DE5B2AB9B82B00C4F8AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA32DE642AB9B82B00C4F8AD /* FluiricUITests.swift in Sources */,
+				BA32DE662AB9B82B00C4F8AD /* FluiricUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA32DE572AB9B82B00C4F8AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA32DE3E2AB9B82900C4F8AD /* Fluiric */;
+			targetProxy = BA32DE562AB9B82B00C4F8AD /* PBXContainerItemProxy */;
+		};
+		BA32DE612AB9B82B00C4F8AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA32DE3E2AB9B82900C4F8AD /* Fluiric */;
+			targetProxy = BA32DE602AB9B82B00C4F8AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA32DE672AB9B82B00C4F8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA32DE682AB9B82B00C4F8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BA32DE6A2AB9B82B00C4F8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Fluiric/Fluiric.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fluiric/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RedBallon.Fluiric;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BA32DE6B2AB9B82B00C4F8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Fluiric/Fluiric.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fluiric/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RedBallon.Fluiric;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BA32DE6D2AB9B82B00C4F8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RedBallon.FluiricTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fluiric.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fluiric";
+			};
+			name = Debug;
+		};
+		BA32DE6E2AB9B82B00C4F8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RedBallon.FluiricTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fluiric.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fluiric";
+			};
+			name = Release;
+		};
+		BA32DE702AB9B82B00C4F8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RedBallon.FluiricUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Fluiric;
+			};
+			name = Debug;
+		};
+		BA32DE712AB9B82B00C4F8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RedBallon.FluiricUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Fluiric;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA32DE3A2AB9B82900C4F8AD /* Build configuration list for PBXProject "Fluiric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA32DE672AB9B82B00C4F8AD /* Debug */,
+				BA32DE682AB9B82B00C4F8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA32DE692AB9B82B00C4F8AD /* Build configuration list for PBXNativeTarget "Fluiric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA32DE6A2AB9B82B00C4F8AD /* Debug */,
+				BA32DE6B2AB9B82B00C4F8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA32DE6C2AB9B82B00C4F8AD /* Build configuration list for PBXNativeTarget "FluiricTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA32DE6D2AB9B82B00C4F8AD /* Debug */,
+				BA32DE6E2AB9B82B00C4F8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA32DE6F2AB9B82B00C4F8AD /* Build configuration list for PBXNativeTarget "FluiricUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA32DE702AB9B82B00C4F8AD /* Debug */,
+				BA32DE712AB9B82B00C4F8AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA32DE4D2AB9B82A00C4F8AD /* Fluiric.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA32DE4E2AB9B82A00C4F8AD /* Fluiric.xcdatamodel */,
+			);
+			currentVersion = BA32DE4E2AB9B82A00C4F8AD /* Fluiric.xcdatamodel */;
+			path = Fluiric.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA32DE372AB9B82900C4F8AD /* Project object */;
+}
